@@ -1,21 +1,21 @@
 # Purpose
 
-Mouse Jiggler is a very simple piece of software whose sole function is to 'fake' mouse input to Windows, and jiggle the mouse pointer back and forth
+Rufus is a utility that helps format and create bootable USB flash drives
 
-Install mousejiggler portable using npm/yarn package manager
+Install Rufus portable using npm/yarn package manager
 
 NOTE: Works just on Windows OS
 
 # Run using npm
 
 ```ps
-npm install -g mousejiggler-portable-installer@latest
+npm install -g rufus-portable-installer@latest
 ```
 
 # Run using yarn
 
 ```ps
-yarn global add mousejiggler-portable-installer@latest
+yarn global add rufus-portable-installer@latest
 ```
 
 Note: If you have not Yarn global path in your path environment variable run the next command
