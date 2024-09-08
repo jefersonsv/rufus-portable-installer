@@ -1,2 +1,3 @@
-npm version patch
+@echo off
+npm version patch || exit /b
 npm publish
