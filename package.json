@@ -1,0 +1,50 @@
+{
+  "name": "rufus-portable-installer",
+  "author": "Jeferson Tenorio",
+  "version": "1.0.3",
+  "type": "module",
+  "description": "Install rufus portable using npm/yarn package manager",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node index.js",
+    "postuninstall": "node uninstall.js"
+  },
+  "bin": {
+    "rufus": "./rufus/rufus-4.5p.exe"
+  },
+  "dependencies": {
+    "download": "^8.0.0",
+    "fs-extra": "^10.1.0",
+    "string-template": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "tsx": "^4.17.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "rufus",
+    "cli",
+    "portable",
+    "bios",
+    "boot",
+    "bootable-drives",
+    "freedos",
+    "gpt",
+    "grub",
+    "grub4dos",
+    "iso",
+    "mbr",
+    "md5",
+    "persistence",
+    "rufus",
+    "secure-boot",
+    "sha1",
+    "sha256",
+    "syslinux",
+    "uefi",
+    "usb",
+    "windows",
+    "windows-to-go"
+  ]
+}
