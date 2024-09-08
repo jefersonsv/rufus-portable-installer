@@ -1,7 +1,7 @@
 {
   "name": "rufus-portable-installer",
   "author": "Jeferson Tenorio",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "Install rufus portable using npm/yarn package manager",
   "main": "index.js",
